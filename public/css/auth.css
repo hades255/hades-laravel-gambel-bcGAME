@@ -1,0 +1,91 @@
+.modal.show, .show~.modal-overlay {
+    pointer-events: all;
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width: 400px)
+.modal {
+    width: 100vw!important;
+    border-radius: 0;
+}
+.modal {
+    position: fixed;
+    width: 400px;
+    height: auto;
+    z-index: 40002!important;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 0;
+    display: unset!important;
+    top: unset!important;
+    left: unset!important;
+    border-radius: 5px;
+}
+.auth {
+    width: 350px!important;
+}
+.modal {
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+.modal .content {
+    color: #fff;
+    background: #222127;
+    border: 1px solid rgba(34,33,39,.04);
+    padding: 20px;
+    width: 100%;
+    transform: scale(.7);
+    opacity: 0;
+    transition: all .3s;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 200px;
+}
+.modal.show .content {
+    transform: scale(1)!important;
+    opacity: 1!important;
+    display: table!important;
+    table-layout: fixed!important;
+    width: 100%!important;
+}
+.modal.show .fa-close-symbol {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #a8a8a8;
+    z-index: 5;
+    transition: color .3s ease;
+    cursor: pointer;
+    float: unset!important;
+    opacity: 1!important;
+    font-size: 1.2em;
+    font-weight: unset!important;
+    line-height: unset!important;
+    text-shadow: unset!important;
+}
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.modal .heading {
+    width: 100%;
+    font-size: 1.2em;
+    text-align: center;
+}

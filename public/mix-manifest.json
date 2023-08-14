@@ -1,0 +1,21 @@
+{
+    "/js/app.js": "/js/app.js?id=cafdc39cb639432175ee",
+    "/css/app.css": "/css/app.css?id=9e012a98e383d42ef220",
+    "/css/maintenance.css": "/css/maintenance.css?id=a493914d7d661430ee4f",
+    "/js/blackjack.js": "/js/blackjack.js?id=211ed1ce28e58f5cec09",
+    "/js/bonus.page.js": "/js/bonus.page.js?id=adac4d6230d25c44295b",
+    "/js/cases.js": "/js/cases.js?id=201d0097b3b0e58e4c4b",
+    "/js/coinflip.js": "/js/coinflip.js?id=6a81308b2eb892c09b81",
+    "/js/crash.js": "/js/crash.js?id=1188b71105cbe17a4066",
+    "/js/dice.js": "/js/dice.js?id=b478d542fdffa4a4573a",
+    "/js/games.js": "/js/games.js?id=de49ded4b64ac0cff1d2",
+    "/js/hilo.js": "/js/hilo.js?id=bcb4008a979622c722ba",
+    "/js/keno.js": "/js/keno.js?id=4c4576374e8f904ae1ff",
+    "/js/mines.js": "/js/mines.js?id=f9fb58e89861b7a7f230",
+    "/js/profile.js": "/js/profile.js?id=28604ab07aa211145195",
+    "/js/provablyfair.js": "/js/provablyfair.js?id=797baae47abd554b4af8",
+    "/js/roulette.js": "/js/roulette.js?id=f8d4142ef78f04e1aaaa",
+    "/js/stairs.js": "/js/stairs.js?id=f69e7c9048d511c1fbb6",
+    "/js/tower.js": "/js/tower.js?id=063bd44fd534579a6548",
+    "/js/wheel.js": "/js/wheel.js?id=8a6f5ebf187bcf7c0456"
+}

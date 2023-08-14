@@ -1,0 +1,16 @@
+
+/*
+*
+ * Production by @exliner
+*
+ */
+
+
+# Version app 9.0.5
+
+# Laravel 7 app 
+   ---> Version 7.25.0
+   
+# NodeJs 12
+   ---> Version 12.18.1
+
